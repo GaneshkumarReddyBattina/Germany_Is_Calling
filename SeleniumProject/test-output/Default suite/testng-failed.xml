@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Test.SeleniumProject.EntrpiseBot">
+        <methods>
+          <include name="navigateToIntentEntityPage"/>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="tearDown"/>
+          <include name="testBotResponse"/>
+          <include name="setUp"/>
+          <include name="createNewIntent"/>
+          <include name="addTriggerToIntent"/>
+          <include name="addSubEntityToEntity"/>
+          <include name="createNewEntity"/>
+          <include name="loginWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.Test.SeleniumProject.EntrpiseBot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

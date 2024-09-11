@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-11T22:04:19 IST" name="Selenium Test Suite" finished-at="2024-09-11T22:04:44 IST" duration-ms="24847">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T22:04:19 IST" name="Login Tests" finished-at="2024-09-11T22:04:44 IST" duration-ms="24847">
+      <class name="com.Test.SeleniumProject.Valid_Credentials">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:19 IST" name="setup" finished-at="2024-09-11T22:04:21 IST" duration-ms="2088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="successfulLoginTest()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:21 IST" name="successfulLoginTest" finished-at="2024-09-11T22:04:31 IST" duration-ms="10594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:31 IST" name="tearDown" finished-at="2024-09-11T22:04:32 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:32 IST" name="setup" finished-at="2024-09-11T22:04:33 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="unsuccessfulLoginTest()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:33 IST" name="unsuccessfulLoginTest" finished-at="2024-09-11T22:04:43 IST" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfulLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.SeleniumProject.Valid_Credentials@429bffaa]" started-at="2024-09-11T22:04:43 IST" name="tearDown" finished-at="2024-09-11T22:04:44 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.SeleniumProject.Valid_Credentials -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>
